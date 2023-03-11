@@ -1,1 +1,31 @@
-@import './normalize.css'
+@import './normalize.css';
+@import './theme.css';
+
+html {
+    background-color: var(--t-bg-color);
+    color: var(--t-text-color);
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.t-layout {
+    display: flex;
+}
+
+.t-layout--side {
+    width: 60px;
+    height: 100vh;
+    background-color: var(--t-content-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid 1px var(--t-border-color);
+}
+
+.t-layout--content {
+    flex: 1;
+}

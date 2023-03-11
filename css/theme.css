@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --t-bg-color: rgb(16, 16, 20);
+        --t-content-bg: rgb(24, 24, 28);
+        --t-text-color: rgba(255, 255, 255, 0.82);
+        --t-border-color: rgba(255, 255, 255, 0.09);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --t-bg-color: #fff;
+        --t-content-bg: #fff;
+        --t-text-color: rgb(51, 54, 57);
+        --t-border-color: rgb(239, 239, 245);
+    }
+}
